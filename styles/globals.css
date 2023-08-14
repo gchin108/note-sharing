@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgb(27 32 43);
+  padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png"); */
+}
+
+.normalButton{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+  
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  margin-top:10px;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #515151;
+}
+.note {
+  color: white;
+  background: #16181d;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color:#7ad727
+}
+.note p {
+  font-size: 1.1em;
+  color: #7ad727;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+
+  color: #087ea4;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: #16181d;
+}
+.note input, .note textarea {
+    color: #7ad727;
+    background: #16181d;
+    border: 2px solid #7ad727;  /* Add border to make it more visible */
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 90%; /* Adjust width to fit inside the note */
+    margin: 8px 0;  /* Adjust margins */
+    font-size: 1.1em;
+    outline: none; /* Remove browser default focus outline */
+}
+.note textarea {
+    height: 60px; /* Set a default height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+
+input {
+    caret-color: white;
+}
+textarea{
+  caret-color: white
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  
+  background: #16181d;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  cursor: white;
+  color:#7ad727;
+  background-color: #16181d;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #087ea4;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
